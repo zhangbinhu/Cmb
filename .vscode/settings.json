@@ -1,0 +1,290 @@
+{
+    "debug.javascript.autoAttachFilter": "smart",
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "C:\\Users\\zhang\\.leetcode",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "guides.enabled": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "javascript": "C:\\nodejs\\node.exe ",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        //"python": "C:\\Python\\Python37\\python.exe -u",
+        // "python": "C:\\Python\\Python37-32\\python32.exe -u",
+        // "python": "C:\\Python\\Python38-32\\python38_32.exe -u",
+        "python": "C:\\Python\\Python39-32\\python39_32.exe -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    //---------------【vscode相关配置】-------------------
+    //"terminal.integrated.automationShell.windows": [],
+    // Command Prompt 　　
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    // PowerShell 　　
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" 　　
+    // Git Bash 　　
+    //"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe" 　　
+    // Bash on Ubuntu (on Windows) 　　
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+    // "terminal.integrated.shellArgs.windows":[
+    //     "-NoExit",
+    //     "/c",
+    //     "chcp 65001"
+    // ],
+    "files.autoSave": "onFocusChange",
+    //---------------【GO相关配置】-------------------
+    "go.gopath": "d:\\Work\\leetcode\\GO",
+    "go.goroot": "C:\\Go",
+    "go.formatTool": "goimports", //可选格式化工具，看大家都选这个
+    "go.lintOnSave": "off", //在保存代码时自动检查代码可以优化的地方，并给出建议
+    "go.toolsGopath": "d:\\Work\\leetcode\\GO", //第三方插件安装位置
+    "go.testFlags": [
+        "-v"
+    ], //-v参数能保证执行go test时有输出
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "gopls": {
+        "experimentalWorkspaceModule": true
+    },
+    //--------------【python相关配置】--------------
+    // "python.pythonPath": "C:\\Python\\Python37\\python.exe",
+    // "python.defaultInterpreterPath": "C:\\Python\\Python37\\python.exe",
+    // "python.autoComplete.extraPaths": [
+    //     //设置python的第三方库路径
+    //     "C:\\Python\\Python37\\Lib\\site-packages",
+    // ],
+    // "python.analysis.extraPaths": [
+    //     "C:\\Python\\Python37\\Lib\\site-packages"
+    // ],
+
+    // "python.pythonPath": "C:\\Python\\Python37-32\\python32.exe",
+    // "python.defaultInterpreterPath": "C:\\Python\\Python37-32\\python32.exe",
+    // "python.autoComplete.extraPaths": [
+    //     //设置python的第三方库路径
+    //     "C:\\Python\\Python37-32\\Lib\\site-packages",
+    // ],
+    // "python.analysis.extraPaths": [
+    //     "C:\\Python\\Python37-32\\Lib\\site-packages"
+    // ],
+
+    // "python.pythonPath": "C:\\Python\\Python38-32\\python38_32.exe",
+    // "python.defaultInterpreterPath": "C:\\Python\\Python38-32\\python38_32.exe",
+    // "python.autoComplete.extraPaths": [
+    //     //设置python的第三方库路径
+    //     "C:\\Python\\Python38-32\\Lib\\site-packages",
+    //     "C:\\Python\\Python38-32\\Scripts",
+    // ],
+    // "python.analysis.extraPaths": [
+    //     "C:\\Python\\Python38-32\\Lib\\site-packages"
+    // ],
+    "python.pythonPath": "C:\\Python\\Python39-32\\python39_32.exe",
+    "python.defaultInterpreterPath": "C:\\Python\\Python39-32\\python39_32.exe",
+    "python.autoComplete.extraPaths": [
+        //设置python的第三方库路径
+        "C:\\Python\\Python39-32\\Lib\\site-packages",
+        "C:\\Python\\Python39-32\\Scripts",
+    ],
+    "python.analysis.extraPaths": [
+        "C:\\Python\\Python39-32\\Lib\\site-packages"
+    ],
+    // yapf
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{column_limit: 200}"
+    ],
+    // "python.languageServer": "Jedi",
+    // pylint
+    "python.linting.pylintEnabled": true,
+    // flake8
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=200"
+    // ],
+    // // autopep8
+    // "python.formatting.provider": "autopep8",
+    // "python.formatting.autopep8Args": [
+    //     "--max-line-length=200"
+    // ],
+    // // black
+    // "python.formatting.provider": "black",
+    // "python.formatting.blackArgs": [
+    //     "--line-length",
+    //     "200"
+    // ],
+    //----------------【path路径自动填充】--------------------
+    "path-intellisense.extensionOnImport": true, //自动补全函数带括号
+    //----------------【高亮插件配置】--------------------
+    "highlightwords.colors": [{
+            "dark": "yellow",
+            "light": "yellow"
+        },
+        {
+            "dark": "Cyan"
+        },
+        {
+            "dark": "Pink"
+        },
+        {
+            "dark": "LightGreen"
+        },
+        {
+            "dark": "LightSteelBlue"
+        },
+        {
+            "dark": "MediumOrchid"
+        },
+        {
+            "dark": "cornflowerblue"
+        },
+        {
+            "dark": "DarkOrange"
+        },
+    ],
+    "highlightwords.box": {
+        //实验结果：false全部填充，true仅填充外框
+        "dark": false
+    },
+    "todo-tree.general.tags": [
+        "@todo",
+        "@tag",
+        "@done",
+        "@note",
+        "@fix"
+    ],
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "tag"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "@todo": {
+            "foreground": "#f90",
+            "rulerColour": "#f90",
+            "iconColour": "#f90",
+        },
+        "@done": {
+            "icon": "issue-closed",
+            "foreground": "#fdff03",
+            "rulerColour": "#fdff03",
+            "iconColour": "#fdff03"
+        },
+        "@fix": {
+            "icon": "beaker",
+            "foreground": "#fb0200",
+            "rulerColour": "#fb0200",
+            "iconColour": "#fb0200",
+            "rulerLane": "full"
+        },
+        "@tag": {
+            "icon": "tag",
+            "foreground": "#67cdfe",
+            "rulerColour": "#67cdfe",
+            "iconColour": "#67cdfe",
+            "rulerLane": "full"
+        },
+        "@note": {
+            "foreground": "#02dc00",
+            "icon": "note",
+            "rulerColour": "#02dc00",
+            "iconColour ": "#02dc00"
+        }
+    },
+    //---------------【vscode其他配置】---------------------
+    "editor.parameterHints.enabled": true, //输入时函数参数提示
+    "editor.formatOnType": false, //输入一行时格式化代码
+    "editor.formatOnPaste": false, //保存时格式化开关
+    "editor.quickSuggestionsDelay": 1, //控制显示快速建议前的等待时间 (毫秒)
+    "editor.snippetSuggestions": "top", //代码片段建议比如if时的代码片段建议，放在top
+    "editor.renderWhitespace": "selection", //空白字符的显示方式
+    "editor.renderLineHighlight": "all", //当前行高亮方式
+    "editor.suggestSelection": "first",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tokenColorCustomizations": {
+        // "comments": {
+        // // 设置字体样式加粗bold下划线underline斜体italic等
+        // "fontStyle": "",
+        // // 设置字体颜色
+        // "foreground": "#4caee2"
+        // }, // 注释
+        //"keywords": "#0a0", // 关键字
+        //"variables": "#f00", // 变量名
+        //"strings": "#18170fbd", // 字符串
+        //"functions": "#5b99fcc9", // 函数名
+        "numbers": "#ff819c", // 数字
+        "functions": {
+            // 设置函数的字体样式 加粗 下划线 斜体等
+            "fontStyle": "bold",
+        },
+    },
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // 头部注释,默认设置：{'Author':'your name','Date':'Do not edit','LastEditors':'your name','LastEditTime':'Do not edit','Description':'file content'}
+    "fileheader.customMade": {
+        "Description": "",
+        "version": "0.0.1",
+        "Author": "binhu.zhang@gdchina.com",
+        "Date": "",
+        "LastEditors": "zbh",
+        "LastEditTime": "do not edit"
+    },
+    // 在光标处插入函数注释,默认配置:{'description':'','param':'','return':''}
+    "fileheader.cursorMode": {
+        "description": "",
+        "param": "",
+        "return": ""
+    },
+    "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
